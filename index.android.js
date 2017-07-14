@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { AppRegistry, View, Text, StyleSheet } from 'react-native'
 
 class Counter extends Component {
-  state = {count: 0 , varCount: 0}
+  state = {count: 1 , varCount: 0}
   componentDidMount() {
     const myId = this.props.id;
       setInterval(() => {
